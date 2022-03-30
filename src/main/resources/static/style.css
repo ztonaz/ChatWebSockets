@@ -1,0 +1,142 @@
+body{
+	
+	opacity:.98;
+	background-image: url("colors.jpg"); 
+	background-size:cover;
+}
+
+
+#all{
+	
+	position:absolute;
+	width:100%;
+	height:100vh;
+	
+}
+
+#userArea{
+	
+	position:absolute;
+	top:5%;
+	width:65%;
+	height:100px;
+	right:10px;
+	
+opacity:.8;
+	background:#145369;
+	
+	
+}
+
+#nicknameText{
+	
+	position:absolute;
+	width: 300px;
+	height:40px;
+	left:110px;
+	
+	color:white;
+	font-weight: bold;
+	text-shadow: 0 0 10px #AD4646;
+	
+	font-size: 1.6em;
+	
+}
+
+#nickname{
+	
+	position:absolute;
+	width : 100px;
+	height:40px;
+	outline: none !important;
+    border:1px solid #AD4646;
+    box-shadow: 0 0 10px #7CA041;
+    color:white;
+    left:110px;
+   background: #0b2d39;
+}
+
+#changeN{
+	
+	position:absolute;
+	width: 130px;
+	height: 30px;
+	left:-55px;
+	font-weight: bold;
+	font-size:.7em;
+	color:white;
+	border:none;
+	background:#AD4646;
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 8px 5px -5px;
+	opacity:.87;
+}
+
+
+#content{
+	
+	position:absolute;
+	left:0;
+	right:0;
+	top:12%;
+	margin-left:auto;
+	margin-right: auto;
+	width: 350px;
+	
+	
+	
+}
+
+#theRes{
+	height :100vh;
+	width: 100%;
+	
+	
+	
+}
+
+#result{
+	
+	color:#0b2d39;
+	position:absolute;
+	width:100%;
+	height:80%;
+	top:20%;
+	text-align: center;	
+	font-size:1.3em;
+	
+	opacity:.94;
+	background: #AD4646;
+	
+	 font-family: 'Ubuntu', sans-serif;
+  
+  border:none;
+  
+  
+  
+  
+
+}
+
+#message{
+	background: #CBDDAD;
+	border:none;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+	 
+}
+
+#message:focus {
+    outline: none !important;
+    border:1px solid #AD4646;
+    box-shadow: 0 0 10px #7CA041;
+    color:grey;
+  }
+
+#send{
+	background: #AD4646;
+	border:none;
+	color:white;
+	font-weight: bold;
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 8px 5px -5px;
+	
+}
+

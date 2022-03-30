@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+	<title>Chat with Websocket</title>
+	<link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/main.css" rel="stylesheet">
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="/app.js"></script>
+    <script src="/cookie.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<div id ="all">
+
+	<div id = "userArea">
+	
+		<button id ="changeN" onclick="changeNicname()">Change Nickname</button>
+		<p id ="nicknameText">Nickname</p>
+		<input id = "nickname"  style="display:none;" placeholder= "nickname"/>
+		
+	</div>
+	
+	<div id = "content">
+		<input id="message" placeholder ="message"/>
+		<button id ="send">Send</button>
+	</div>
+	
+	<div id = "theRes"><textarea id = "result" disabled></textarea></div>
+	
+
+</div>
+</body>
+</html>
